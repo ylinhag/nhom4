@@ -33,7 +33,7 @@ namespace Nhom4
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
+            services.AddSession();
             services.AddDbContext<TinTucContext>(options =>
 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
@@ -54,6 +54,8 @@ options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
+
+            app.UseSession();
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
