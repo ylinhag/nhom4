@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Nhom4.Models.TinTuc>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Thống Kê</h2>
+<h3>Tổng cộng:@Model.Count() tin tức</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TieuDe)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NoiDung)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Anh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NgayDang)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NguoiDang)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaTheLoai)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TieuDe)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NoiDung)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Anh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayDang)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NguoiDang)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaTheLoai)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

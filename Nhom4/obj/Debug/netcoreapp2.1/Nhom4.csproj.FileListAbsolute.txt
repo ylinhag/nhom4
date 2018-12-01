@@ -40,3 +40,5 @@ D:\dotNet\Nhom4\Nhom4\obj\Debug\netcoreapp2.1\Razor\Views\CRUDTinTuc\Delete.g.cs
 D:\dotNet\Nhom4\Nhom4\obj\Debug\netcoreapp2.1\Razor\Views\CRUDTinTuc\Details.g.cshtml.cs
 D:\dotNet\Nhom4\Nhom4\obj\Debug\netcoreapp2.1\Razor\Views\CRUDTinTuc\Edit.g.cshtml.cs
 D:\dotNet\Nhom4\Nhom4\obj\Debug\netcoreapp2.1\Razor\Views\CRUDTinTuc\Index.g.cshtml.cs
+D:\dotNet\Nhom4\Nhom4\obj\Debug\netcoreapp2.1\Razor\Views\ThongKes\Index.g.cshtml.cs
+D:\dotNet\Nhom4\Nhom4\obj\Debug\netcoreapp2.1\Razor\Views\Login\Index.g.cshtml.cs
